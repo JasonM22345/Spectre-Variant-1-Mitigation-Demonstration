@@ -1,0 +1,12 @@
+# Makefile for Spectre Variant 1 Mitigation Demonstration
+
+TARGET = spectre
+SRC = main.c
+
+all: $(TARGET)
+
+$(TARGET):
+	gcc $(SRC) -o $(TARGET) -Os
+
+clean:
+	rm -f $(TARGET)
