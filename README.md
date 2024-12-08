@@ -2,7 +2,7 @@
 Spectre Variant 1 Mitigation Demonstration
 
 
-This repository contains a demonstration and mitigation of the Spectre Variant 1 vulnerability, which exploits speculative execution in modern CPUs to infer sensitive data via side-channel attacks. The code is based on the [Spectre-Attack](https://github.com/Markus-MS/Spectre-Attack.git) project and extends it by implementing robust mitigations rooted in computer architecture principles.
+This repository contains a demonstration and mitigation of the Spectre Variant 1 vulnerability, which exploits speculative execution in modern CPUs to infer sensitive data via side-channel attacks. The code is based on the [Spectre-Attack](https://github.com/Markus-MS/Spectre-Attack.git) project and extends it by implementing robust mitigations.
 
 ## Overview
 
