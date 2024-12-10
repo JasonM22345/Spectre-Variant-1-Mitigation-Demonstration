@@ -4,6 +4,9 @@ Spectre Variant 1 Mitigation Demonstration
 
 This repository contains a demonstration and mitigation of the Spectre Variant 1 vulnerability, which exploits speculative execution in modern CPUs to infer sensitive data via side-channel attacks. The code is based on the [Spectre-Attack](https://github.com/Markus-MS/Spectre-Attack.git) project and extends it by implementing robust mitigations.
 
+**NB: This code is entirely safe to run and does not impact the host system in any way; it is solely intended as an educational demonstration.**
+
+
 ## Overview
 
 Speculative execution, a key performance optimization in modern processors, can lead to security vulnerabilities when branch mispredictions cause out-of-bounds memory accesses. These accesses leave measurable traces in the CPU cache, creating a covert channel for attackers. This repository illustrates both the vulnerability and its mitigation, focusing on techniques such as:
@@ -25,4 +28,9 @@ To compile the code, ensure you have GCC installed. Then run the following comma
 
 ```bash
 make
+```
+To run the code, use:
+
+```bash
+./spectre_mitigation
 ```
