@@ -1,6 +1,6 @@
 # Makefile for Spectre Variant 1 Mitigation Demonstration
 
-TARGET = spectre
+TARGET = spectre_mitigation
 SRC = main.c
 
 all: $(TARGET)
